@@ -1,0 +1,13 @@
+#include "./Logger.oj"
+
+@implementation App
+-(id)init {
+    if(self = [super init]) {
+        [Logger info:"Hello, world!"];
+    }
+}
+@end
+
+function Main() {
+    var app = [[alloc] init];
+}

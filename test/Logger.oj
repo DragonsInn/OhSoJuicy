@@ -1,0 +1,5 @@
+@implementation Logger
++(void)info:(String)msg {
+    console.log((new Date()), msg);
+}
+@end

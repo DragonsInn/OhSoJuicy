@@ -1,0 +1,32 @@
+{
+  "name": "ohsojuicy",
+  "version": "0.0.1",
+  "description": "Using OJ with middlewares!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragonsInn/OhSoJuicy.git"
+  },
+  "keywords": [
+    "oj",
+    "objective-j",
+    "javascript-oj",
+    "compile-to-js",
+    "middleware",
+    "compile"
+  ],
+  "author": "Ingwie Phoenix <ingwie2000@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DragonsInn/OhSoJuicy/issues"
+  },
+  "homepage": "https://github.com/DragonsInn/OhSoJuicy#readme",
+  "dependencies": {
+    "ginga": "^1.0.0",
+    "minimist": "^1.1.1",
+    "ojc": "^1.1.2"
+  }
+}
