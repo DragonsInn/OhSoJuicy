@@ -1,4 +1,11 @@
 #include "./Logger.oj"
+#include "./Logger.oj"
+
+#ifdef PRODUCTION
+var foo = "bar";
+#else
+var foo = "baz";
+#endif
 
 @implementation App
 -(id)init {

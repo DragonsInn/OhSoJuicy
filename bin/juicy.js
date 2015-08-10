@@ -45,7 +45,7 @@
     }
 
     compiler.compile(options, function(err,res){
-        if(err) return console.error(err);
+        if(err) return console.log(err);
         fs.writeFileSync(argv.o || "./a.out", res.code);
     });
 
